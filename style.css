@@ -78,3 +78,12 @@ header {
     padding: 10px 20px;
   }
 }
+
+.footer {
+  width: 100%;
+  padding: 1rem;
+  background: #f1f1f1;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
