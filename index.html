@@ -3,15 +3,16 @@
   <!-- head -->
   <head>
     <title>OsawaLab</title>
-    <meta charset="utf-8">
-    <meta name="description" content="OsawaLab">
+    <meta charset="utf-8" name="description" content="OsawaLab">
     <!-- GSAPのCDNを使用 -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
     <!-- CSSファイルの読み込み -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- JSファイルの読み込み -->
     <script src="/js/main.js"></script>
     <script src="/js/loading.js"></script>
+    <script src="/js/trigger.js"></script>
   </head>
 
   <body>
@@ -34,13 +35,22 @@
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Member</a></li>
-            <li><a href="#">Producta</a></li>
+            <li><a href="#">Product</a></li>
           </ul>
         </nav>
       </header>
 
       <!-- main -->
-
+        <main class="main">
+          <div class="main-content">
+            <img src="./img/lunch-lab.jpg" alt="main-image" class="main-image">
+            <h1 class="first-text">ここでしかできない経験を</h1>
+          </div>
+          <div class="about">
+            <h2 class="second-title">About</h2>
+            <p class="about-text">OsawaLabは、食品開発を行う研究室です。食品の研究開発を通じて、新しい食品を生み出し、食文化を創造しています。</p>
+          </div>
+        </main>
 
       <!-- footer -->
       <footer class="footer">
